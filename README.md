@@ -9,3 +9,10 @@ The `create_new_project_file.py` script is a command line interface tool for cre
 ## GUI Script
 
 The `create_new_project_file_gui.py` script provides a graphical user interface (GUI) using PySimpleGUI. It allows users to interactively enter project details, choose a location for the new project folder, and select main folders to create. This script can easily create project folders with a more user-friendly experience.
+
+### Requirements
+Before using the GUI script, ensure you have PySimpleGUI installed. You can install it via pip.
+
+`pip install PySimpleGUI`
+
+For more information see the [PySimpleGUI Documentation](https://docs.pysimplegui.com/en/latest/).
