@@ -18,8 +18,7 @@ from datetime import date
 def create_project_layout():
     return [
         [sg.Text("Create New Project Folders", font=('Helvetica', 16), justification='center')],
-        [sg.Text("Author: Rory McPherson", font=('Helvetica', 10))],
-        [sg.Text("Email: mcpherson.rory.nz@gmail.com", font=('Helvetica', 10))],
+        [sg.Text("Author: Rory McPherson | https://github.com/rorymcpherson", font=('Helvetica', 10))],
         [sg.Text("\nThis tool is for creating a new project folder for work projects.\nEnter the project details, designate a folder location, select a\nlocation for the folder, and the new project folder will be created.\nModify the subfolders list as you like in the Python script.", font=('Helvetica', 12))],
         [sg.Text("\nProject Details:", font=('Helvetica', 14))],
         [sg.Text("Project ID Number:", size=(14, 1)), sg.InputText(key="project_num", size=(32, 1))],
